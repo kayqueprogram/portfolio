@@ -1,0 +1,61 @@
+@media (max-width: 1200px) {
+    main {
+        width: 100%;
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-content {
+        width: 100%;
+        align-items: center;
+
+        margin-bottom: 15%;
+    }
+
+    .text, .techs {
+        text-align: center;
+    }
+
+    .text p {
+        width: 100%;
+        font-size: .9em;
+    }
+
+    .cards-container, .text p {
+        margin-top: 32px;
+    }
+}
+
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+    }
+
+    header nav a {
+        font-size: 1.3em;
+    }
+
+    header h1 {
+        margin-bottom: 15px;
+    }
+
+    .card {
+        width: 90px;
+        height: 90px;
+    }
+
+    .text h2, .techs h2 {
+        font-size: 1.8em;
+    }
+
+    main figure img {
+        width: 250px;
+        height: 250px;
+    }
+}
